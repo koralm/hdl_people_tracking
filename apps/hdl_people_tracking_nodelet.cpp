@@ -22,6 +22,9 @@
 #include <kkl/cvk/cvutils.hpp>
 #include <hdl_people_tracking/people_tracker.hpp>
 
+//Added custom libraries
+#include <boost/format.hpp>
+
 namespace hdl_people_tracking {
 
 class HdlPeopleTrackingNodelet : public nodelet::Nodelet {

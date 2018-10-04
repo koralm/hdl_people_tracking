@@ -26,6 +26,9 @@
 #include <hdl_people_detection/people_detector.h>
 #include <hdl_people_detection/background_subtractor.hpp>
 
+//Added custom libraries
+#include <boost/format.hpp>
+
 namespace hdl_people_detection {
 
 /**
